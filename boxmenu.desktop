@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Compiz-Boxmenu
+Comment=Menu for compiz
+Exec=compiz-boxmenu 
+TryExec=/usr/bin/compiz-boxmenu
+Icon=/usr/share/icons/hicolor/scalable/apps/cbmenu.svg
+Type=Application
+

@@ -1,0 +1,68 @@
+git config --global user.name "Your Name Here"
+# Sets the default name for git to use when you commit
+
+git config --global user.email "your_email@youremail.com"
+# Sets the default email for git to use when you commit
+
+cd my_other_repo
+# Changes the working directory to the repo you need to switch info for
+git config user.name "Different Name"
+# Sets the user's name for this specific repo
+git config user.email "differentemail@email.com"
+# Sets the user's email for this specific repo
+
+git config --global credential.helper cache
+# Set git to use the credential memory cache
+
+git config --global credential.helper 'cache --timeout=3600'
+# Set the cache to timeout after 1 hour (setting is in seconds)
+
+git init
+# Sets up the necessary Git files
+
+touch README
+# Creates a file called "README" in your Hello-World directory
+
+git add README
+# Stages your README file, adding it to the list of files to be committed
+
+git commit -m 'first commit'
+# Commits your files, adding the message "first commit"
+
+git remote add origin https://github.com/username/Hello-World.git
+# Creates a remote named "origin" pointing at your GitHub repo
+
+git push origin master
+# Sends your commits in the "master" branch to GitHub
+
+git branch
+* master
+
+$ git branch -a
+* master
+  origin/1-2-stable
+  origin/2-0-stable
+  origin/2-1-stable
+  origin/2-2-stable
+  origin/3-0-unstable
+  origin/HEAD
+  origin/master
+
+$ git branch -r
+  origin/1-2-stable
+  origin/2-0-stable
+  origin/2-1-stable
+  origin/2-2-stable
+  origin/3-0-unstable
+  origin/HEAD
+  origin/master
+
+git remote -v# View existing remotes
+# origin  git@github.com:user/repo.git (fetch)
+# origin  git@github.com:user/repo.git (push)
+
+git remote rename origin destination# Change remote name from 'origin' to 'destination'
+
+git remote -v# Verify remote's new name
+# destination  git@github.com:user/repo.git (fetch)
+# destination  git@github.com:user/repo.git (push)

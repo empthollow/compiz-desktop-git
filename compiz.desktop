@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Compiz
+Comment=This session logs you into Compiz Standalone
+Exec=cinnamon-session-cinnamon
+TryExec=/usr/bin/cinnamon
+Icon=
+Type=Application
+
