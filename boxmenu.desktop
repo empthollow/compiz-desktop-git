@@ -3,6 +3,6 @@ Name=Compiz-Boxmenu
 Comment=Menu for compiz
 Exec=compiz-boxmenu 
 TryExec=/usr/bin/compiz-boxmenu
-Icon=/usr/share/icons/hicolor/scalable/apps/cbmenu.svg
+Icon=/etc/compiz-desktop/fusion-icon.png
 Type=Application
 
