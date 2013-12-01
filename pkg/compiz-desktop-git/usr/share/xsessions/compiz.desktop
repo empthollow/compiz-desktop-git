@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Compiz
+Comment=This session logs you into Compiz Standalone
+Exec=compiz-session
+TryExec=/usr/bin/compiz-session
+Icon=
+Type=Application
+

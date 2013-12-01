@@ -16,7 +16,7 @@ optdepends=()
 source=()
 md5sums=()
 
-_gitroot="git://github.com/empthollow/fc-utils.git"
+_gitroot="git://github.com/empthollow/compiz-desktop-git.git"
 _gitname="src"
 
 msg "Connecting to the GIT server...."
@@ -37,7 +37,7 @@ mkdir -p ${pkgdir}/usr/share/xsessions
 mkdir -p ${pkgdir}/usr/bin
 cp -p ${srcdir}/boxmenu.desktop ${pkgdir}/usr/share/applications
 cp -p ${srcdir}/compiz-session ${pkgdir}/usr/bin
-cp -p ${srcdir}/ccompiz.desktop ${pkgdir}/usr/share/xsessions
+cp -p ${srcdir}/compiz.desktop ${pkgdir}/usr/share/xsessions
 cp -p ${srcdir}/menu.xml ${pkgdir}/etc/compiz-desktop
 cp -p ${srcdir}/fusion-icon.png ${pkgdir}/etc/compiz-desktop
-
+}

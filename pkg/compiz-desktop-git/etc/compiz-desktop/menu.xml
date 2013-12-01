@@ -1,0 +1,190 @@
+<menu>
+	<menu name="Net" icon="gnome-mime-x-directory-smb-workgroup">
+		<item type="launcher">
+			<name>Chromium</name>
+			<command>chromium</command>
+			<icon mode1="file">/usr/share/icons/AwOken/clear/24x24/apps/chromium.png</icon>
+		</item>
+		<item type="launcher">
+			<name>Firefox</name>
+			<command>firefox</command>
+			<icon>firefox</icon>
+		</item>
+		<item type="launcher">
+			<name>DWB</name>
+			<command>dwb</command>
+			<icon>dwb</icon>
+		</item>
+		<item type="launcher">
+			<icon>pidgin</icon>
+			<name>Pidgin</name>
+			<command>pidgin</command>
+		</item>
+		<item type="launcher">
+			<name>Mail</name>
+			<command>evolution</command>
+			<icon>evolution-mail</icon>
+		</item>
+		<item type="launcher">
+			<name>GFTP</name>
+			<command>gftp-gtk</command>
+			<icon>gftp</icon>
+		</item>
+		<item type="launcher">
+			<name>Windows</name>
+			<command>smbadm</command>
+			<icon>netapplet</icon>
+		</item>
+		<item type="launcher">
+			<name>Apple</name>
+			<command>afpgui</command>
+			<icon>netapplet</icon>
+		</item>
+	</menu>
+	<menu name="Editors" icon="text-editor">
+		<item type="launcher">
+			<name>Gedit</name>
+			<command>gedit</command>
+			<icon>accessories-text-editor</icon>
+		</item>
+		<item type="launcher">
+			<name>Bluefish</name>
+			<command>bluefish</command>
+			<icon>bluefish-icon</icon>
+		</item>
+	</menu>
+	<menu name="Multimedia" icon="applications-multimedia">
+		<item type="launcher">
+			<name>Image Viewer</name>
+			<command>gthumb</command>
+			<icon>gthumb</icon>
+		</item>
+		<item type="launcher">
+			<name>Audio Player</name>
+			<command>rhythmbox</command>
+			<icon>rhythmbox</icon>
+		</item>
+		<item type="launcher">
+			<name>Mplayer</name>
+			<command>smplayer</command>
+			<icon>mplayer</icon>
+		</item>
+		<item type="launcher">
+			<name>Mixer</name>
+			<command>gmixer</command>
+			<icon>gmixer</icon>
+		</item>
+	</menu>
+	<menu name="Office" icon="package_office">
+		<item type="launcher">
+			<name>Calculator</name>
+			<command>galculator</command>
+			<icon>accessories-calculator-symbolic</icon>
+		</item>
+		<item type="launcher">
+			<name>PDF Viewer</name>
+			<command>evince</command>
+			<icon>acroread</icon>
+		</item>
+		<item type="launcher">
+			<name>LibreOffice</name>
+			<command>libreoffice</command>
+			<icon>libreoffice-startcenter</icon>
+		</item>
+	</menu>
+	<menu name="System Tools" icon="applications-system">
+		<item type="launcher">
+			<name>File Browser</name>
+			<command>dbus-launch thunar</command>
+			<icon>file-manager</icon>
+		</item>
+		<item type="launcher">
+			<name>File Search</name>
+			<command>catfish</command>
+			<icon>catfish</icon>
+		</item>
+		<item type="launcher">
+			<name>Task Manager</name>
+			<command>lxtask</command>
+			<icon>utilities-system-monitor</icon>
+		</item>
+		<item type="launcher">
+			<name>Gnome Control Center</name>
+			<command>gnome-control-center</command>
+			<icon>gnome-control-centre</icon>
+		</item>
+		<item type="launcher">
+			<name>Compiz Config SM</name>
+			<command>ccsm</command>
+			<icon>ccsm</icon>
+		</item>
+		<item type="launcher">
+			<name>Emerald Theme Manager</name>
+			<command>emerald-theme-manager</command>
+			<icon>emerald-theme-manager</icon>
+		</item>
+		<item type="launcher">
+			<name>Change Themes</name>
+			<command>gnome-tweak-tool</command>
+			<icon>gnome-settings-theme</icon>
+		</item>
+		<item type="launcher">
+			<name>Archive Manager</name>
+			<command>file-roller</command>
+			<icon>utilities-file-archiver</icon>
+		</item>
+		<item type="launcher">
+			<name>Partition Editor</name>
+			<command>gksudo gparted</command>
+			<icon>gparted</icon>
+		</item>
+		<item type="launcher">
+			<name>Printer Coltrol Center</name>
+			<command>cupsadm</command>
+			<icon>cups</icon>
+		</item>
+		<item type="launcher">
+			<name>Daemon Dialog</name>
+			<command>daemondialog</command>
+			<icon>checkbox-gtk</icon>
+		</item>
+		<item type="launcher">
+			<name>Virtual Box</name>
+			<command>VirtualBox</command>
+			<icon>virtual-box</icon>
+		</item>
+	</menu>
+	<item type="launcher">
+		<name>Run</name>
+		<command>grun</command>
+		<icon>gnome-run</icon>
+	</item>
+	<separator/>
+	<item type="launcher">
+		<name>Suspend</name>
+		<command>sudo pm-suspend</command>
+		<icon>system-suspend</icon>
+	</item>
+	<item type="launcher">
+		<name>Logoff</name>
+		<icon>gnome-session-logout2</icon>
+		<command>/home/empthollow/.config/compiz/logoff</command>
+	</item>
+	<item type="launcher">
+		<name>Reboot</name>
+		<icon>system-reboot</icon>
+		<command>shares -r</command>
+	</item>
+	<item type="launcher">
+		<name>Power Off</name>
+		<icon>gnome-shutdown</icon>
+		<command>shares -p</command>
+	</item>
+	<separator/>
+	<item type="launcher">
+		<icon>gtk-edit</icon>
+		<command>compiz-boxmenu-editor</command>
+		<name>E_dit</name>
+	</item>
+	<item type="reload"/>
+</menu>
